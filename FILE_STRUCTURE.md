@@ -40,8 +40,8 @@
 
 #### `/src/components/steps` - Form Step Components
 - `PersonalInfo.tsx` - Step 1: Personal information form
-- `ContactDetails.tsx` - Step 2: Contact details form
-- `Preferences.tsx` - Step 3: User preferences form
+- `FinancialInfo.tsx` - Step 2: Financal information form
+- `AdditionalInfo.tsx` - Step 3: Addition AI support form
 
 #### `/src/pages` - Page Components
 - `Form.tsx` - Main form page container
@@ -240,11 +240,6 @@ multi-step-form/
 
 ## 🎯 Key Features by File
 
-### Form Management
-- **PersonalInfo.tsx**: Step 1 validation and data collection
-- **ContactDetails.tsx**: Step 2 with email/phone validation
-- **Preferences.tsx**: Step 3 with submission logic
-
 ### State Management
 - **formSlice.ts**: Centralized form state
 - **FormContext.tsx**: Persistent storage
@@ -256,8 +251,7 @@ multi-step-form/
 
 ### API Integration
 - **api.ts**: HTTP client abstraction
-- **Preferences.tsx**: Form submission
-
+- 
 ### UI Components
 - **ProgressBar.tsx**: Responsive progress tracking
 - **Success.tsx**: Confirmation page
