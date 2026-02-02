@@ -242,14 +242,6 @@ fontFamily: {
 3. Update translation keys in `src/i18n/config.ts`
 4. Update form slice in `src/store/slices/formSlice.ts`
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 💡 Tips
 
 1. **Form Validation**: Customize validation rules in each step component
@@ -257,11 +249,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. **Styling**: Modify Tailwind classes for your brand
 4. **Language**: Add more languages in `src/i18n/config.ts`
 5. **Fields**: Add/remove form fields as needed
-
-## 📞 Support
-
-For issues or questions, please open an issue on the GitHub repository.
-
----
 
 Built with ❤️ using React, TypeScript, and modern web technologies.
