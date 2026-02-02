@@ -5,7 +5,7 @@ A fully responsive, accessible multi-step registration form built with React, Ty
 ## 🎯 Features
 
 ### Core Features
-- ✅ **3-Step Form Process**: Personal Info → Contact Details → Preferences
+- ✅ **3-Step Form Process**: Personal Info → Financial Details → Additional Details
 - ✅ **Responsive Design**: Mobile-first approach with vertical progress on small screens, horizontal on desktop
 - ✅ **Bilingual Support**: English and Arabic with full RTL (Right-to-Left) support
 - ✅ **Form Validation**: Using react-hook-form with comprehensive validation rules
@@ -64,8 +64,8 @@ multi-step-form/
 │   │   ├── ProgressBar.tsx          # Progress indicator component
 │   │   └── steps/
 │   │       ├── PersonalInfo.tsx     # Step 1: Personal information
-│   │       ├── ContactDetails.tsx   # Step 2: Contact information
-│   │       └── Preferences.tsx      # Step 3: User preferences
+│   │       ├── FinancialInfo.tsx   # Step 2: Financial information
+│   │       └── AdditionalInfo.tsx      # Step 3: Additional info with AI support
 │   ├── pages/
 │   │   ├── Form.tsx                 # Main form page
 │   │   └── Success.tsx              # Success confirmation page
@@ -118,24 +118,10 @@ multi-step-form/
 ### Form Steps
 
 #### Step 1: Personal Information
-- First Name (required, min 2 chars)
-- Last Name (required, min 2 chars)
-- Date of Birth (required)
-- Gender (required, dropdown)
 
-#### Step 2: Contact Details
-- Email (required, valid email format)
-- Phone (required, phone format)
-- Address (required)
-- City (required)
-- Country (required, searchable dropdown)
+#### Step 2: Financial Information
 
-#### Step 3: Preferences
-- Newsletter subscription (toggle)
-- Email notifications (toggle)
-- Preferred language (dropdown)
-- Theme preference (dropdown)
-- Bio (optional, max 500 chars)
+#### Step 3: Additional Information 
 
 ## 🌐 Internationalization
 
@@ -177,13 +163,6 @@ To use a different API:
 1. Open `src/services/api.ts`
 2. Update the `baseURL` in the axios instance
 3. Modify the `submitForm` function as needed
-
-### Using Fetch Instead of Axios
-The code includes both implementations:
-- `submitForm`: Uses Axios
-- `submitFormWithFetch`: Uses Fetch API
-
-To switch, update the import in `src/components/steps/Preferences.tsx`.
 
 ## ♿ Accessibility Features
 
