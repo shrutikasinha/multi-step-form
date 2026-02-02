@@ -7,7 +7,7 @@ A production-ready, fully-featured multi-step registration form built with moder
 ## 🎯 Key Features at a Glance
 
 ### ✨ User Experience
-- **3-Step Progressive Form**: Personal Info → Contact Details → Preferences
+- **3-Step Progressive Form**: Personal Info → Financial Info → Additional details with AI support
 - **Smart Progress Tracking**: Visual progress bar that adapts to screen size
 - **Auto-Save**: Never lose your progress - saves automatically to localStorage
 - **Bilingual**: Full English and Arabic support with RTL layout
@@ -56,8 +56,8 @@ multi-step-form/
 │   │   ├── ProgressBar.tsx   # Responsive progress indicator
 │   │   └── steps/            # Form step components
 │   │       ├── PersonalInfo.tsx      # Step 1
-│   │       ├── ContactDetails.tsx    # Step 2
-│   │       └── Preferences.tsx       # Step 3
+│   │       ├── FinancialInfo.tsx    # Step 2
+│   │       └── AdditionalInfo.tsx       # Step 3
 │   │
 │   ├── pages/               # Page-level components
 │   │   ├── Form.tsx         # Main form container
@@ -177,7 +177,7 @@ Success Page
 ### Switching to Real API
 1. Update `baseURL` in `src/services/api.ts`
 2. Modify `submitForm` function to match your API contract
-3. Update response handling in `src/components/steps/Preferences.tsx`
+3. Update response handling in `src/components/steps/AdditionalInfo.tsx`
 
 ### API Response Format
 ```typescript
