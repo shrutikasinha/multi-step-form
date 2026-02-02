@@ -14,24 +14,12 @@ App (Router + Redux Provider)
 │   │
 │   └── Current Step Component
 │       ├── Step 1: PersonalInfo
-│       │   ├── First Name Input
-│       │   ├── Last Name Input
-│       │   ├── Date of Birth Picker
-│       │   └── Gender Select
+
 │       │
-│       ├── Step 2: ContactDetails
-│       │   ├── Email Input
-│       │   ├── Phone Input
-│       │   ├── Address Input
-│       │   ├── City Input
-│       │   └── Country Select
+│       ├── Step 2: FinancialInfo
+
 │       │
-│       └── Step 3: Preferences
-│           ├── Newsletter Switch
-│           ├── Notifications Switch
-│           ├── Language Select
-│           ├── Theme Select
-│           └── Bio TextArea
+│       └── Step 3: AdditionalInfo
 │
 └── Success Page
     ├── Success Icon
