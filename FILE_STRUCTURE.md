@@ -99,9 +99,9 @@ multi-step-form/
     ├── components/
     │   ├── ProgressBar.tsx
     │   └── steps/
-    │       ├── PersonalInfo.tsx
-    │       ├── ContactDetails.tsx
-    │       └── Preferences.tsx
+    │       ├── AdditionalInfo.tsx
+    │       ├── FinancialInfo.tsx
+    │       └── PersonalInfo.tsx
     │
     ├── pages/
     │   ├── Form.tsx
@@ -197,27 +197,6 @@ multi-step-form/
 - Horizontal layout (desktop)
 - Vertical layout (mobile)
 - Step completion indicators
-
-**PersonalInfo.tsx** (161 lines)
-- First name input
-- Last name input
-- Date of birth picker
-- Gender select
-- Form validation
-
-**ContactDetails.tsx** (216 lines)
-- Email input
-- Phone input
-- Address fields
-- Country selector
-- Navigation buttons
-
-**Preferences.tsx** (193 lines)
-- Toggle switches
-- Select inputs
-- Text area for bio
-- Form submission
-- Loading states
 
 **Form.tsx** (77 lines)
 - Main form container
